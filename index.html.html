@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rakesh</title>
+    <link rel="icon" type="image/png" href="assets/profile.jpg">
+    
+
+    
+    <link rel="stylesheet" href="style.css">
+    <script rel="stylesheet" href="script.js"></script>
+</head>
+<body>
+    <nav class="navbar" role="navigation" aria-label="Main navigation menu">
+    <div class="container">
+        <a href="#hero" class="logo">
+            <span class="highlight">Rakesh</span>  <span class="sr-only">Portfolio</span>
+        </a>
+
+        <div class="nav-links" id="navLinks" role="menubar">
+            <a href="#about" role="menuitem">About</a>
+            <a href="#skills" role="menuitem">Skills</a>
+            <a href="#projects" role="menuitem">Projects</a>
+            <a href="#contact" role="menuitem">Contact</a>
+
+            <button id="theme-toggle" aria-label="Toggle dark/light theme" role="switch" aria-checked="false" type="button">
+                <span class="icon-swap">
+                    <i class="fas fa-sun" aria-hidden="true"></i>
+                    <i class="fas fa-moon" aria-hidden="true" style="display: none;"></i>
+                </span>
+            </button>
+        </div>
+
+        <button class="burger-menu" id="burgerMenu" aria-label="Toggle navigation menu" aria-controls="navLinks" aria-expanded="false" type="button">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </button>
+    </div>
+</nav>
+
+<main id="main-content">
+    <section id="hero" class="hero-section" aria-labelledby="hero-heading">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 id="hero-heading">Java FullStack Developer </h1>
+                    <p class="lead">
+                        I craft high-performance, user-centric web experiences using modern frameworks,
+                        specializing in building <span id="dynamic-text" class="highlight">modern, fast</span> web applications.
+                    </p>
+                    <div class="social-links">
+                        <a href="https://github.com/RakeshM62" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile (Opens in new tab)"><i class="fab fa-github" aria-hidden="true"></i></a>
+                        <a href="https://www.linkedin.com/in/rakesh-madaraboina-7a3911335/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile (Opens in new tab)"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+                        <a href="rakeshmadaraboina2@gmail.com" aria-label="rakeshmadaraboina2@gmail.com"><i class="fas fa-envelope" aria-hidden="true"></i></a>
+                    </div>
+                    <a href="#projects" class="btn btn-primary">View Projects <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+                    <a href="assets\Rakesh_Resume[1] (AutoRecovered).pdf.pdf" target="_blank" class="btn btn-secondary" rel="noopener noreferrer" aria-label="Download Resume (PDF, Opens in new tab)">
+                        View Resume <i class="fas fa-download" aria-hidden="true"></i>
+                    </a>
+                </div>
+                <div class="hero-image">
+                    <img src="assets/profile.jpg"
+                        alt="Professional portrait of a woman in her 40s smiling"
+                        class="profile-pic"
+                        width="300"
+                        height="300"
+                        loading="eager">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <section id="about" class="about-section" aria-labelledby="about-heading">
+        <div class="container">
+            <h2 id="about-heading">About Me</h2>
+            <div class="about-content">
+                <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=900&q=80"
+                    alt="Developer team collaborating on a desk"
+                    class="about-img"
+                    width="500"
+                    height="350"
+                    loading="lazy">
+                <div>
+                    <h3>My Philosophy</h3>
+                    <p>As a Full Stack Developer, I believe in creating seamless bridges between front-end experience and back-end logic. Every line of code should solve a real problem, not just add complexity. 
+                        <p>I strive to write scalable, maintainable, and human-readable code that empowers both users and developers.</p>
+                    <p> I value simplicity in design, clarity in logic, and purpose in development.
+6. I aim to create user-friendly interfaces that provide seamless experiences.
+7. I follow best practices to ensure my applications are scalable, secure, and future-ready.
+8. I believe in writing code that is easy to read, maintain, and evolve.
+9. Collaboration, communication, and openness to feedback drive my growth.
+10. My goal is to build solutions that solve real problems and continually push me to learn more.</p>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <section id="skills" class="skills-section" aria-labelledby="skills-heading">
+        <div class="container">
+            <h2 id="skills-heading">My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Languages</h3>
+                    <ul role="list" aria-label="Programming Languages">
+                        <li><i class="fab fa-html5" aria-hidden="true"></i> Java</li>
+                        <li><i class="fab fa-html5" aria-hidden="true"></i> Python(Basics)</li>
+                        <li><i class="fab fa-html5" aria-hidden="true"></i>Html </li>
+                        <li><i class="fab fa-html5" aria-hidden="true"></i> CSS</li>
+                        <li><i class="fab fa-js-square" aria-hidden="true"></i> JavaScript  <span class="highlight"></span></li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Database</h3>
+                    <ul role="list" aria-label="Frameworks and Libraries">
+                        <li><i class="fab fa-react" aria-hidden="true"></i> Orcle/ MYSql </li>
+                        <li><i class="fab fa-angular" aria-hidden="true"></i></li>
+                        <li><i class="fab fa-vuejs" aria-hidden="true"></i>   </li>
+                        <li><i class="fab fa-bootstrap" aria-hidden="true"></i> </li>
+                        <li><i class="fab fa-sass" aria-hidden="true"></i> </li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Workflow</h3>
+                    <ul role="list" aria-label="Tools and Workflow">
+                        <li><i class="fab fa-git-alt" aria-hidden="true"></i> Git / GitHub  <span class="highlight"></span></li>
+                        <li><i class="fas fa-terminal" aria-hidden="true"></i>VS code & Eclipse 
+                        
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <section id="projects" class="projects-section" aria-labelledby="projects-heading">
+        <div class="container">
+            <h2 id="projects-heading">Featured Projects</h2>
+            <div class="projects-grid">
+
+                <div class="project-card" role="article">
+                    <figure>
+                        <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=700&q=80"
+                            alt="Screenshot of the Interactive Quiz App showing live question timer"
+                            loading="lazy"
+                            width="300"
+                            height="200">
+                    </figure>
+                    <h3>EMPLOYEE PAY ROLLE</h3>
+                    <p> "An automated system that manages employee salaries, attendance, and deductions with accuracy and efficiency."</p>
+                    <p></p>
+                    <div class="project-tech" role="list" aria-label="Technologies used" tabindex="0">
+                        <span>JAVA</span>
+                        <span>Context API</span>
+                        <span>CSS Modules</span>
+                        <span>Jest/Testing</span>
+                    </div>
+                  <div class="project-links">
+    <a href="https://github.com/RakeshM62/Employee_Payroll_System"
+       target="_blank"
+       class="btn btn-small"
+       rel="noopener noreferrer">
+        <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+             alt="GitHub Logo"
+             style="width:20px; height:20px; vertical-align:middle; margin-right:6px;">
+        Source Code
+    </a>
+</div>
+
+                </div>
+
+                <div class="project-card" role="article">
+                    <figure>
+                        <img src="https://images.unsplash.com/photo-1607746882042-944635dfe10e?auto=format&fit=crop&w=700&q=80"
+                            alt="Screenshot of the E-commerce Product Page UI, showing a shopping cart icon." loading="lazy"
+                            width="300"
+                            height="200">
+                    </figure>
+                    <h3>FAKE JOB POST DETECTION</h3>
+                    <p>A machine learning-based system that analyzes job descriptions and identifies fraudulent job postings with high accuracy</p>
+                    <div class="project-tech" role="list" aria-label="Technologies used" tabindex="0">
+                        <span>Ml</span>
+                        <span>python</span>
+                        <span>JavaScript (Vanilla)</span>
+                        <span>Web APIs</span>
+                    </div>
+                 <div class="project-links">
+    <a href="https://github.com/RakeshM62/Employee_Payroll_System"
+       target="_blank"
+       class="btn btn-small"
+       rel="noopener noreferrer">
+        <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+             alt="GitHub Logo"
+             style="width:20px; height:20px; vertical-align:middle; margin-right:6px;">
+        Source Code
+    </a>
+</div>
+
+                </div>
+
+                <div class="project-card" role="article">
+                    <figure>
+                        <img src="assets\parking-management-copy.webp"
+                            alt="Weather Dashboard showing temperature and forecast charts" loading="lazy"
+                            width="300"
+                            height="200">
+                    </figure>
+                    <h3>Vehicle Parking System</h3>
+                    <p>"A smart system that manages vehicle entries, exits, and parking slot allocation efficiently." </p>
+                    <div class="project-tech" role="list" aria-label="Technologies used" tabindex="0">
+                        <span>java</span>
+                        
+                        <span>html</span>
+                        
+                    </div>
+                   <div class="project-links">
+    <a href="https://github.com/RakeshM62/Employee_Payroll_System"
+       target="_blank"
+       class="btn btn-small"
+       rel="noopener noreferrer">
+        <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+             alt="GitHub Logo"
+             style="width:20px; height:20px; vertical-align:middle; margin-right:6px;">
+        Source Code
+    </a>
+</div>
+
+                </div>
+
+                <div class="project-card" role="article">
+                    <figure>
+                        <img src="https://images.unsplash.com/photo-1508780709619-79562169bc64?auto=format&fit=crop&w=700&q=80"
+                            alt="Screenshot of the Personal Blog Platform, showing article previews" loading="lazy"
+                            width="300"
+                            height="200">
+                    </figure>
+                    <h3>feature thoughts
+
+                    </h3>
+                    <p>A static blog platform optimized for SEO and performance using Jekyll, demonstrating mastery of server-side generated content.</p>
+                    <div class="project-tech" role="list" aria-label="Technologies used" tabindex="0">
+                        <span>Jekyll (Ruby)</span>
+                        <span>Markdown</span>
+                        <span>HTML/CSS</span>
+                        <span>SEO Optimization</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://blog-platform-demo.vercel.app" target="_blank" class="btn btn-small" rel="noopener noreferrer">Live Demo <i class="fas fa-external-link-alt" aria-hidden="true"></i></a>
+                        <a href="" target="_blank" class="btn btn-small" rel="noopener noreferrer">Source Code <i class="fab fa-github" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+  <section id="contact" class="contact-section" aria-labelledby="contact-heading">
+    <div class="container">
+        <h2 id="contact-heading">Get In Touch</h2>
+
+        <p class="contact-intro">
+            I'm always open to new opportunities, collaborations, and freelance projects.
+            Let's build something amazing together!
+        </p>
+
+        <address class="contact-details">
+
+            <p>
+                <!-- Mail Icon -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v16H4z"/><polyline points="22,4 12,13 2,4"/></svg>
+                Email:
+                <a href="mailto:rakeshmadaraboina2@gmail.com">rakeshmadaraboina2@gmail.com</a>
+            </p>
+
+            <p>
+                <!-- LinkedIn Icon -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor"><path d="M4.98 3.5A2.5 2.5 0 119.98 3.5a2.5 2.5 0 01-5 0zM4.5 8h3v12h-3V8zm7 0h2.8v1.7h.1A3.07 3.07 0 0117.9 8c3.3 0 3.9 2.2 3.9 5v7h-3V14c0-1.2 0-2.8-1.7-2.8S15 12.5 15 14v6h-3V8z"/></svg>
+                LinkedIn:
+                <a href="https://www.linkedin.com/in/rakesh-madaraboina-7a3911335/" target="_blank" rel="noopener noreferrer">
+                    rakesh-madaraboina
+                </a>
+            </p>
+
+            <p>
+                <!-- GitHub Icon -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor"><path d="M12 .5A11.5 11.5 0 000 12c0 5.1 3.3 9.4 7.9 10.9.6.1.8-.3.8-.6v-2c-3.2.7-3.9-1.6-3.9-1.6-.5-1.2-1.2-1.6-1.2-1.6-1-.7.1-.7.1-.7 1.1.1 1.7 1.1 1.7 1.1 1 .1.3 2 .3 2 1.4.3 2.9-.5 2.9-.5 0-.9.3-1.5.6-1.8-2.6-.3-5.4-1.3-5.4-6a4.6 4.6 0 011.2-3.1 4.3 4.3 0 01.1-3.1s1-.3 3.2 1.2a11 11 0 015.8 0c2.2-1.5 3.2-1.2 3.2-1.2a4.3 4.3 0 01.1 3.1 4.6 4.6 0 011.2 3.1c0 4.7-2.8 5.7-5.5 6 .4.3.7 1 .7 2v3c0 .3.2.7.8.6A11.5 11.5 0 0024 12C24 5.8 18.6.5 12 .5z"/></svg>
+                GitHub:
+                <a href="https://github.com/RakeshM62" target="_blank" rel="noopener noreferrer">
+                    RakeshM62
+                </a>
+            </p>
+
+        </address>
+
+        <!-- Button -->
+        <div class="contact-actions">
+            <a href="mailto:rakeshmadaraboina2@gmail.com" class="contact-btn">
+                Send a Message
+                <!-- Send Icon -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9"/></svg>
+            </a>
+        </div>
+
+    </div>
+</section>
+
+</main>
+
+<footer role="contentinfo">
+    <div class="container">
+        <div class="footer-content">
+            <p>&copy; <span id="current-year">2025</span> Rakesh. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#about">About</a> |
+                <a href="#projects">Projects</a> |
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
